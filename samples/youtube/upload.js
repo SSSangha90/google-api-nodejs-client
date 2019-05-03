@@ -22,6 +22,7 @@ const readline = require('readline');
 
 const {google} = require('googleapis');
 const sampleClient = require('../sampleclient');
+// What's meant by the sampleClient? ...The JSON file with your client_id and client_secret?
 
 // initialize the Youtube API library
 const youtube = google.youtube({
